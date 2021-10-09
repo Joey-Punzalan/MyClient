@@ -1,0 +1,76 @@
+.App {
+  background-color: burlywood;
+  padding-left: 20px;
+}
+
+.App-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title {
+    color: blue;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: left;
+}
+
+.App-main-container {
+    width: 100%;
+}
+
+.App-accounts-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-right: 10px;
+}
+
+.App-table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.App-table td, th {
+    border: 1px solid darkgray;
+    text-align: left;
+    padding: 8px;
+}
+
+    .App-table th {
+        background-color: darkgrey;
+        color: white;
+        text-align: center;
+        padding: 8px;
+    }
+
+.App-table tr:nth-child(even) {
+    background-color: lightgray;
+    color: black;
+}
+
+.App-table tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+.App-button {
+    margin-right: 10px;
+}
+
+.App-csv-reader {
+    display: inline-block;
+    font-size: 12px;
+    color: black;
+}
+
+.App-title {
+    color: black;
+    font-size: 15px;
+}
